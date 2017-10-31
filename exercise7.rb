@@ -9,10 +9,14 @@ b = '#####'.to_s
 c = "=======".to_s
 d = "-------".to_s
 
-puts "#{wrap_text(a, b)}"
-puts "#{wrap_text("timer","BBBBBB")}"
 
 x = "#{wrap_text(a, b)}"
 y = "#{wrap_text(c, d)}"
 
-z = ""
+z = "#{wrap_text(x,y)}"
+
+puts "#{wrap_text("timer","BBBBBB")}"
+
+puts x
+puts y
+puts z
